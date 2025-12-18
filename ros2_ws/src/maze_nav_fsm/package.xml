@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>maze_nav_fsm</name>
+  <version>0.0.1</version>
+  <description>Finite state machine for two-phase maze navigation with state-dependent costmaps.</description>
+  <maintainer email="xuhaozhe2022@bupt.edu.cn">Haozhe Xu</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+
+  <export>
+  </export>
+</package>
+
+

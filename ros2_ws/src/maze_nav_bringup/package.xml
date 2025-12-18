@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>maze_nav_bringup</name>
+  <version>0.0.1</version>
+  <description>Bringup package for MicroROS-ESP32 maze navigation demo.</description>
+  <maintainer email="xuhaozhe2022@bupt.edu.cn">Haozhe Xu</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+
+  <exec_depend>maze_nav_planner</exec_depend>
+  <exec_depend>maze_nav_fsm</exec_depend>
+  <exec_depend>maze_nav_vision</exec_depend>
+
+  <export>
+  </export>
+</package>
+
+
